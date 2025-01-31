@@ -1,0 +1,511 @@
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Devcrud">
+
+
+    <link rel="stylesheet" href="filter.css">
+    <link rel="icon" href="assets/imgs/Santosh_Sir.png.png" sizes="100x100" type="image/jpg">
+
+    <title>SSIT-Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="bootstrap-grid.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
+
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap  styles -->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+    
+
+
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+
+
+
+<!-- Spinner Start -->
+<div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-border text-secondary" style="width: 3rem; height: 3rem;" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+</div>
+<!-- Spinner End -->
+
+<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+    
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Project" class="nav-link">Project</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav brand" >
+                    
+                    <!-- <img src="WhatsApp Image 2024-12-05 at 15.13.20_dd58be89.jpg" 
+                    alt="" class="brand-img" > -->
+                    <li class="nav-item">
+                        <h5 class="brand-title text-danger" >Santosh Selokar</h5>
+                        <div class="brand-subtitle">Full Stack Developer</div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#ManagedProjects" class="nav-link">Recent Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#blog" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item last-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- nav ended -->
+
+
+    <!-- gallery started -->
+
+    <main class="mainContainer">
+<section class="section1 bg-custom-gray pt-2 mb-5 pb-5 mt-5" id="blog">
+    <div class="container mt-5">
+  
+      <div class="position-relative d-flex align-items-center justify-content-center">
+        <h3 class="mb-5 mt-2" data-aos="fade-up"
+        data-aos-duration="300">
+          Latest <span class="text-danger">Blog </span></h3>
+      </div>
+  
+      
+  
+        <!-- Button started -->
+  
+        <div class="button-group">
+            <button class="button2 active" data-filter=".work">Work</button>
+            <button class="button2" data-filter=".session">Session</button>
+            <button class="button2" data-filter=".CRT">CRT</button>
+            <button class="button2" data-filter=".FDP">FDP</button>
+            <button class="button2" data-filter=".drive">Drive</button>
+            <button class="button2" data-filter=".industry">Industrial Visit
+            </button>
+            <button class="button2" data-filter=".MOU">MOU</button>
+            <button class="button2" data-filter=".management">Mang. Training
+            </button>
+        </div>
+  
+        <!-- Button end -->
+  
+        <!-- gallery start -->
+  
+        <div class="gallery">
+  
+            <!-- card1 started -->
+            <div class="item work">
+                <img src="assets/imgs/work1.jpg" alt="work1">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card1 ended -->
+  
+            <!-- card2 started -->
+            <div class="item work">
+                <img src="assets/imgs/work2.jpg" alt="work2">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card2 ended -->
+  
+  
+            <!-- card3 started -->
+            <div class="item work">
+                <img src="assets/imgs/work3.jpg" alt="work3">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card3 ended -->
+  
+            <!-- card4 started -->
+            <div class="item work">
+                <img src="assets/imgs/work4.jpg" alt="work4">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card4 ended -->
+  
+            <!-- card5 started -->
+            <div class="item work">
+                <img src="assets/imgs/work5.jpg" alt="work5">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card5 ended -->
+  
+            <!-- card6 started -->
+            <div class="item work">
+                <img src="assets/imgs/work6.jpg" alt="work6">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card6 ended -->
+  
+            <!-- card7 started -->
+            <div class="item work">
+                <img src="assets/imgs/work7.jpg" alt="work7">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card7 ended -->
+  
+            <!-- card8 started -->
+            <div class="item work">
+                <img src="assets/imgs/work8.jpg" alt="work8">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card8 ended -->
+  
+            <!-- card9 started -->
+            <div class="item work">
+                <img src="assets/imgs/work9.jpg" alt="work9">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card9 ended -->
+  
+            <!-- card10 started -->
+            <div class="item work">
+                <img src="assets/imgs/work10.jpg" alt="work10">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card10 ended -->
+  
+            <!-- card11 started -->
+            <div class="item work">
+                <img src="assets/imgs/work11.jpg" alt="work11">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card11 ended -->
+  
+            <!-- card12 started -->
+            <div class="item work">
+                <img src="assets/imgs/work12.jpg" alt="work12">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card12 ended -->
+  
+  
+            <!-- session -->
+            <!-- card1 started -->
+            <div class="item session">
+                <img src="assets/imgs/session1.jpg" alt="session1">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card1 ended -->
+  
+            <!-- card2 started -->
+            <div class="item session">
+                <img src="assets/imgs/session2.jpg" alt="session2">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card2 ended -->
+  
+            <!-- card3 started -->
+            <div class="item session">
+                <img src="assets/imgs/session3.jpg" alt="session3">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card3 ended -->
+  
+            <!-- card4 started -->
+            <div class="item session">
+                <img src="assets/imgs/session4.jpg" alt="session4">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card4 ended -->
+  
+            <!-- card5 started -->
+            <div class="item session">
+                <img src="assets/imgs/session5.jpg" alt="session5">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card5 ended -->
+  
+            <!-- card6 started -->
+            <div class="item session">
+                <img src="assets/imgs/session6.jpg" alt="session6">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card6 ended -->
+  
+            <!-- drive -->
+            <!-- card1 started -->
+            <div class="item drive">
+                <img src="assets/imgs/Drive1.jpg" alt="drive1">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card1 ended -->
+  
+            <!-- card2 started -->
+            <div class="item drive">
+                <img src="assets/imgs/Drive2.jpg" alt="drive2">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card2 ended -->
+  
+            <!-- card3 started -->
+            <div class="item drive">
+                <img src="assets/imgs/Drive3.jpg" alt="drive3">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card3 ended -->
+  
+            <!-- card4 started -->
+            <div class="item drive">
+                <img src="assets/imgs/Drive4.jpg" alt="drive4">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card4 ended -->
+  
+            <!-- card5 started -->
+            <div class="item drive">
+                <img src="assets/imgs/Drive5.jpg" alt="drive5">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card5 ended -->
+  
+            <!-- card6 started -->
+            <div class="item drive">
+                <img src="assets/imgs/Drive6.jpg" alt="drive6">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card6 ended -->
+  
+            <!-- industry -->
+            <!-- card1 started -->
+            <div class="item industry">
+                <img src="assets/imgs/industry1.jpg" alt="industry1">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card1 ended -->
+  
+            <!-- card2 started -->
+            <div class="item industry">
+                <img src="assets/imgs/industry2.jpg" alt="industry2">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card2 ended -->
+  
+            <!-- card3 started -->
+            <div class="item industry">
+                <img src="assets/imgs/industry3.jpg" alt="industry3">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card3 ended -->
+  
+            <!-- MOU -->
+            <!-- card1 started -->
+            <div class="item MOU">
+                <img src="assets/imgs/MOU1.jpg" alt="MOU1">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card1 ended -->
+  
+            <!-- card2 started -->
+            <div class="item MOU">
+                <img src="assets/imgs/MOU2.jpg" alt="MOU2">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card2 ended -->
+  
+            <!-- card3 started -->
+            <div class="item MOU">
+                <img src="assets/imgs/MOU3.jpg" alt="MOU3">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card3 ended -->
+  
+            <!-- card4 started -->
+            <div class="item MOU">
+                <img src="assets/imgs/MOU4.jpg" alt="MOU4">
+                <div class="overlay">
+                    <a href="">View More</a>
+                </div>
+            </div>
+            <!-- card4 ended -->
+  
+        </div>
+  
+        <!-- gallery end -->
+  
+    
+  </section>
+</main>
+  <!-- Blog End -->
+
+    <!-- gallery ended -->
+
+
+
+
+   
+  <!-- footer section -->
+  <footer class="container-fluid footer_section fixed-bottom">
+    <p>
+      &copy; <span id="currentYear"></span> All Rights Reserved. Design by
+      <a href="https://anjalidahake.com">Anjali Dahake</a>
+    </p>
+  </footer>
+  <!-- footer section -->
+
+
+
+
+
+
+  <!-- go to top button -->
+
+  <div onclick="scrollToTop()" class="scrollTop">
+    <button class="to-top button1" id="scroll" onclick="scrollToTop()">
+      <svg class="svgIcon" viewBox="0 0 384 512">
+        <path
+          d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
+        ></path>
+      </svg>
+    </button>
+  </div>
+
+  <!-- //go to top button -->
+
+
+
+
+
+<!-- core  -->
+<script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+<script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+<!-- bootstrap 3 affix -->
+<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+
+<!-- go to top -->
+<script>
+ 
+  function scrollToTop()
+       {
+         window.scrollTo(0, 0);
+       }
+</script>
+<!-- go to top -->
+
+
+
+    
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+
+
+ <!-- Bootstrap JS -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+ <!-- Script to Control Scroll -->
+<script>
+    window.addEventListener("load", function () {
+        const marquee = document.getElementById("projectMarquee");
+
+        // Set marquee to stay initially
+        marquee.setAttribute("scrollamount", "0");
+
+        // Start scrolling after 3 seconds
+        setTimeout(() => {
+            marquee.setAttribute("scrollamount", "5"); // Set desired speed
+        }, 3000); // 3 seconds delay
+    });
+</script>
+</body>
+</html>

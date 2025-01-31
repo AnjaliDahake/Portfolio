@@ -1,0 +1,443 @@
+<section class="section1 bg-custom-gray mb-5 pb-5" id="blog">
+  <div class="container">
+
+    <div class="position-relative d-flex align-items-center justify-content-center">
+      <h3 class="mb-5 mt-2" data-aos="fade-up"
+      data-aos-duration="300">
+        Latest <span class="text-danger">Blog </span></h3>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 mb-5" data-aos="fade-up"
+      data-aos-duration="600">
+          <div class="position-relative mb-4">
+              <img class="img-fluid rounded w-100" src="assets/imgs/imgs1.png" alt="">
+              <div class="blog-date">
+                  <h4 class="font-weight-bold mb-n1">01</h4>
+                  <small class="text-white text-uppercase">Jan</small>
+              </div>
+          </div>
+          <h5 class="font-weight-medium mb-4">anishree-technologies Outstanding Leadership Award 2024 @ Pride Hotel,Nagpur.</h5>
+          <!-- <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a> -->
+      </div>
+      <div class="col-lg-4 mb-5" data-aos="fade-up"
+      data-aos-duration="900">
+          <div class="position-relative mb-4">
+              <img class="img-fluid rounded w-100" src="assets/imgs/img2.png" alt="">
+              <div class="blog-date">
+                  <h4 class="font-weight-bold mb-n1">07</h4>
+                  <small class="text-white text-uppercase">Des</small>
+              </div>
+          </div>
+          <h5 class="font-weight-medium mb-4">
+          Conducted Internship Drive @ Prof. Ram meghe Institute of Engineering & Technology Badnera Amravati.
+          </h5>
+          <!-- <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a> -->
+      </div>
+      <div class="col-lg-4 mb-5" data-aos="fade-up"
+      data-aos-duration="1200">
+          <div class="position-relative mb-4">
+              <img class="img-fluid rounded w-100" src="assets/imgs/img3.png" alt="">
+              <div class="blog-date">
+                  <h4 class="font-weight-bold mb-n1">06</h4>
+                  <small class="text-white text-uppercase">Des</small>
+              </div>
+          </div>
+          <h5 class="font-weight-medium mb-4">
+           Anishree Technologies & Suryodaya College of Engineering, Nagpur Signed official memorandum of understanding.
+          </h5>
+          <!-- <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a> -->
+      </div>
+  </div>
+
+  <a class="btn btn-sm btn-outline-primary py-4 d-flex justify-content-center" href="" style="font-size: 20px;">
+    Explore My Gallery</a>
+
+
+</div>
+</div>
+ </section>
+<!-- Blog End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="section1 bg-custom-gray mb-5 pb-5" id="blog">
+  <div class="container">
+
+    <div class="position-relative d-flex align-items-center justify-content-center">
+      <h3 class="mb-5 mt-2" data-aos="fade-up"
+      data-aos-duration="300">
+        Latest <span class="text-danger">Blog </span></h3>
+    </div>
+
+    <main class="mainContainer">
+
+      <!-- Button started -->
+
+      <div class="button-group">
+          <button class="button2 active" data-filter=".work">Work</button>
+          <button class="button2" data-filter=".session">Session</button>
+          <button class="button2" data-filter=".CRT">CRT</button>
+          <button class="button2" data-filter=".FDP">FDP</button>
+          <button class="button2" data-filter=".drive">Drive</button>
+          <button class="button2" data-filter=".industry">Industrial Visit
+          </button>
+          <button class="button2" data-filter=".MOU">MOU</button>
+          <button class="button2" data-filter=".management">Mang. Training
+          </button>
+      </div>
+
+      <!-- Button end -->
+
+      <!-- gallery start -->
+
+      <div class="gallery">
+
+          <!-- card1 started -->
+          <div class="item work">
+              <img src="assets/imgs/work1.jpg" alt="work1">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card1 ended -->
+
+          <!-- card2 started -->
+          <div class="item work">
+              <img src="assets/imgs/work2.jpg" alt="work2">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card2 ended -->
+
+
+          <!-- card3 started -->
+          <div class="item work">
+              <img src="assets/imgs/work3.jpg" alt="work3">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card3 ended -->
+
+          <!-- card4 started -->
+          <div class="item work">
+              <img src="assets/imgs/work4.jpg" alt="work4">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card4 ended -->
+
+          <!-- card5 started -->
+          <div class="item work">
+              <img src="assets/imgs/work5.jpg" alt="work5">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card5 ended -->
+
+          <!-- card6 started -->
+          <div class="item work">
+              <img src="assets/imgs/work6.jpg" alt="work6">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card6 ended -->
+
+          <!-- card7 started -->
+          <div class="item work">
+              <img src="assets/imgs/work7.jpg" alt="work7">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card7 ended -->
+
+          <!-- card8 started -->
+          <div class="item work">
+              <img src="assets/imgs/work8.jpg" alt="work8">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card8 ended -->
+
+          <!-- card9 started -->
+          <div class="item work">
+              <img src="assets/imgs/work9.jpg" alt="work9">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card9 ended -->
+
+          <!-- card10 started -->
+          <div class="item work">
+              <img src="assets/imgs/work10.jpg" alt="work10">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card10 ended -->
+
+          <!-- card11 started -->
+          <div class="item work">
+              <img src="assets/imgs/work11.jpg" alt="work11">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card11 ended -->
+
+          <!-- card12 started -->
+          <div class="item work">
+              <img src="assets/imgs/work12.jpg" alt="work12">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card12 ended -->
+
+
+          <!-- session -->
+          <!-- card1 started -->
+          <div class="item session">
+              <img src="assets/imgs/session1.jpg" alt="session1">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card1 ended -->
+
+          <!-- card2 started -->
+          <div class="item session">
+              <img src="assets/imgs/session2.jpg" alt="session2">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card2 ended -->
+
+          <!-- card3 started -->
+          <div class="item session">
+              <img src="assets/imgs/session3.jpg" alt="session3">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card3 ended -->
+
+          <!-- card4 started -->
+          <div class="item session">
+              <img src="assets/imgs/session4.jpg" alt="session4">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card4 ended -->
+
+          <!-- card5 started -->
+          <div class="item session">
+              <img src="assets/imgs/session5.jpg" alt="session5">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card5 ended -->
+
+          <!-- card6 started -->
+          <div class="item session">
+              <img src="assets/imgs/session6.jpg" alt="session6">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card6 ended -->
+
+          <!-- drive -->
+          <!-- card1 started -->
+          <div class="item drive">
+              <img src="assets/imgs/Drive1.jpg" alt="drive1">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card1 ended -->
+
+          <!-- card2 started -->
+          <div class="item drive">
+              <img src="assets/imgs/Drive2.jpg" alt="drive2">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card2 ended -->
+
+          <!-- card3 started -->
+          <div class="item drive">
+              <img src="assets/imgs/Drive3.jpg" alt="drive3">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card3 ended -->
+
+          <!-- card4 started -->
+          <div class="item drive">
+              <img src="assets/imgs/Drive4.jpg" alt="drive4">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card4 ended -->
+
+          <!-- card5 started -->
+          <div class="item drive">
+              <img src="assets/imgs/Drive5.jpg" alt="drive5">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card5 ended -->
+
+          <!-- card6 started -->
+          <div class="item drive">
+              <img src="assets/imgs/Drive6.jpg" alt="drive6">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card6 ended -->
+
+          <!-- industry -->
+          <!-- card1 started -->
+          <div class="item industry">
+              <img src="assets/imgs/industry1.jpg" alt="industry1">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card1 ended -->
+
+          <!-- card2 started -->
+          <div class="item industry">
+              <img src="assets/imgs/industry2.jpg" alt="industry2">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card2 ended -->
+
+          <!-- card3 started -->
+          <div class="item industry">
+              <img src="assets/imgs/industry3.jpg" alt="industry3">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card3 ended -->
+
+          <!-- MOU -->
+          <!-- card1 started -->
+          <div class="item MOU">
+              <img src="assets/imgs/MOU1.jpg" alt="MOU1">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card1 ended -->
+
+          <!-- card2 started -->
+          <div class="item MOU">
+              <img src="assets/imgs/MOU2.jpg" alt="MOU2">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card2 ended -->
+
+          <!-- card3 started -->
+          <div class="item MOU">
+              <img src="assets/imgs/MOU3.jpg" alt="MOU3">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card3 ended -->
+
+          <!-- card4 started -->
+          <div class="item MOU">
+              <img src="assets/imgs/MOU4.jpg" alt="MOU4">
+              <div class="overlay">
+                  <a href="">View More</a>
+              </div>
+          </div>
+          <!-- card4 ended -->
+
+      </div>
+
+      <!-- gallery end -->
+
+  </main>
+</section>
+<!-- Blog End -->

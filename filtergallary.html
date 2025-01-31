@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Devcrud">
+
+
+    <link rel="stylesheet" href="filter.css">
+    <link rel="icon" href="assets/imgs/Santosh_Sir.png.png" sizes="100x100" type="image/jpg">
+
+    <title>SSIT-Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<!-- <link rel="stylesheet" href="styles.css"> -->
+<link rel="stylesheet" href="bootstrap-grid.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
+
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap  styles -->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+    
+
+
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+
+
+
+<!-- Spinner Start -->
+<div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-border text-secondary" style="width: 3rem; height: 3rem;" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+</div>
+<!-- Spinner End -->
+
+<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+    
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
+        <div class="container">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="index1.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index1.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index1.html" class="nav-link">Project</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav brand" >
+                    
+                    <!-- <img src="WhatsApp Image 2024-12-05 at 15.13.20_dd58be89.jpg" 
+                    alt="" class="brand-img" > -->
+                    <li class="nav-item">
+                        <h5 class="brand-title text-danger" >Santosh Selokar</h5>
+                        <div class="brand-subtitle">Full Stack Developer</div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="index1.html" class="nav-link">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index1.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item last-item">
+                        <a href="index1.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- nav ended -->
+
+
+    <!-- gallery started -->
+
+<section class="section1 bg-custom-gray pt-2 mb-5 pb-5 mt-5" id="blog">
+    <div class="container mt-5">
+  
+      <div class="position-relative d-flex align-items-center justify-content-center">
+        <h3 class="mb-5 mt-2" data-aos="fade-up"
+        data-aos-duration="300">
+          Explore <span class="text-danger">Gallery </span></h3>
+      </div>
+
+
+
+
+        <main class="mainContainer">
+
+            <!-- Button started -->
+
+            <div class="button-group">
+                <button class="button2 active 
+                btn btn-sm btn-outline-primary px-3 shadow-lg rounded
+                ">All</button>
+                <button class="button2 
+                btn btn-sm btn-outline-primary px-3 shadow-lg rounded
+                " data-filter=".celebrant">Celebrant</button>
+                <button class="button2 
+                btn btn-sm btn-outline-primary px-3 shadow-lg rounded
+                " data-filter=".work">Workshop</button>
+                <button class="button2
+                btn btn-sm btn-outline-primary px-3 shadow-lg rounded
+                " data-filter=".session">Session</button>
+                <button class="button2 
+                btn btn-sm btn-outline-primary px-3 shadow-lg rounded
+                " data-filter=".CRT">CRT</button>
+                <button class="button2 
+                btn btn-sm btn-outline-primary px-3 shadow-lg rounded
+                " data-filter=".FDP">FDP</button>
+                <button class="button2 
+                btn btn-sm btn-outline-primary px-3 shadow-lg rounded
+                " data-filter=".drive">Drive</button>
+                <button class="button2 
+                btn btn-sm btn-outline-primary px-3 shadow-lg rounded
+                " data-filter=".industry">Industrial Visit
+                </button>
+                <button class="button2 
+                btn btn-sm btn-outline-primary px-3 shadow-lg rounded
+                " data-filter=".MOU">MOU</button>
+                <button class="button2 
+                btn btn-sm btn-outline-primary px-3 shadow-lg rounded
+                " data-filter=".management">Mang. Training
+                </button>
+            </div>
+
+            <!-- Button end -->
+
+            <!-- gallery start -->
+           
+            <div class="gallery">
+
+
+                <!-- workshop -->
+
+                <!-- card1 started -->
+                <div class="item work">
+                    <img src="assets/imgs/work1.jpg" alt="work1">
+                    <div class="overlay">
+                        <p>
+                            3 days workshop program from 31st July to 2nd August 2024 on Python & Django In G.H. Raisoni College of Engineering (Autonomous) Institute , Nagpur (Maharashtra).
+                        </p>
+                    </div>
+                </div>
+
+
+                <!-- card1 ended -->
+
+                <!-- card2 started -->
+                <div class="item work">
+                    <img src="assets/imgs/work2.jpg" alt="work2">
+                    <div class="overlay">
+                        <p>
+                            5 days workshop on Python from 5th August to 10th August 2024 In Gurunanak Institute of Engineering & Technology, Nagpur,(Maharashtra) .
+                        </p>
+                    </div>
+                </div>
+                <!-- card2 ended -->
+
+
+                <!-- card3 started -->
+                <div class="item work">
+                    <img src="assets/imgs/work3.jpg" alt="work3">
+                    <div class="overlay">
+                        <p>
+                            It is great & immense pleasure to conduct python workshop in Gurunanak Institute of Engineering & Technology, Nagpur ( Maharashtra) from 5th to 11 th August 2024.
+                        </p>
+                    </div>
+                </div>
+                <!-- card3 ended -->
+
+                <!-- card4 started -->
+                <div class="item work">
+                    <img src="assets/imgs/work4.jpg" alt="work4">
+                    <div class="overlay">
+                        <p>
+                            PHP Workshop Started From 30th September , 2024 at Saikheda Campus.
+                        </p>
+                    </div>
+                </div>
+                <!-- card4 ended -->
+
+                <!-- card5 started -->
+                <div class="item work">
+                    <img src="assets/imgs/work5.jpg" alt="work5">
+                    <div class="overlay">
+                        <p>
+                            Workshop on python In C.S.I.T College,Deori on 27th feb 2024.
+                        </p>
+                    </div>
+                </div>
+                <!-- card5 ended -->
+
+                <!-- card6 started -->
+                <div class="item work">
+                    <img src="assets/imgs/work6.jpg" alt="work6">
+                    <div class="overlay">
+                        <p>
+                            My Python & Django workshop Session In Center Point College ,Nagpur.
+                        </p>
+                    </div>
+                </div>
+                <!-- card6 ended -->
+
+                <!-- card7 started -->
+                <div class="item work">
+                    <img src="assets/imgs/work7.jpg" alt="work7">
+                    <div class="overlay">
+                        <p>
+                            5 days workshop session On C, HTML & CSS.
+                        </p>
+                    </div>
+                </div>
+                <!-- card7 ended -->
+
+                <!-- card8 started -->
+                <div class="item work">
+                    <img src="assets/imgs/work8.jpg" alt="work8">
+                    <div class="overlay">
+                        <p>
+                            3 days Python & Django workshop in Nagpur University Campus College from 18th to 20th March 2024.
+                        </p>
+                    </div>
+                </div>
+                <!-- card8 ended -->
+
+                <!-- card9 started -->
+                <div class="item work">
+                    <img src="assets/imgs/work9.jpg" alt="work9">
+                    <div class="overlay">
+                        <p>
+                            2 days Python & Django Workshop in Nagpur University Campus College From 5th to 6th March 2024, Nagpur(Maharashtra).
+                        </p>
+                    </div>
+                </div>
+                <!-- card9 ended -->
+
+                <!-- card10 started -->
+                <div class="item work">
+                    <img src="assets/imgs/work10.jpg" alt="work10">
+                    <div class="overlay">
+                        <p>
+                            Java workshop in G.H. Raisoni College of Engineering & Management, (Autonomus) institute Nagpur on 12th jan 2024.
+                        </p>
+                    </div>
+                </div>
+                <!-- card10 ended -->
+
+                <!-- card11 started -->
+                <div class="item work">
+                    <img src="assets/imgs/work11.jpg" alt="work11">
+                    <div class="overlay">
+                        <p>
+                            Python & Django Workshop In Tulsiramji Gaikwad Patil College of Engineering & Technology (Autonomous) Institute Nagpur on 11 october 2023.
+                        </p>
+                    </div>
+                </div>
+                <!-- card11 ended -->
+
+                <!-- card12 started -->
+                <div class="item work">
+                    <img src="assets/imgs/work12.jpg" alt="work12">
+                    <div class="overlay">
+                        <p>
+                            2 Days Workshop On C & C++ In Tulsiramji Gaikwad Patil College Of Engineering & Technology, Nagpur(Maharashtra).
+                        </p>
+                    </div>
+                </div>
+                <!-- card12 ended -->
+
+                 <!-- card13 started -->
+                 <div class="item work">
+                    <img src="assets/imgs/work13.jpg" alt="work13">
+                    <div class="overlay">
+                        <p>
+                            5 days workshop program from 6th January to 11th January 2025 on Generative AI at Suryodaya College of Engineering & Technology, Nagpur.
+                        </p>
+                    </div>
+                </div>
+                <!-- card13 ended -->
+
+                 <!-- card14 started -->
+                 <div class="item work">
+                    <img src="assets/imgs/work14.jpg" alt="work14">
+                    <div class="overlay">
+                        <p>
+                            5 days workshop program from 8th January to 14th January 2025 on Python & Django In G.H. Raisoni Institute of Engineering & Technology, Nagpur For Second Year Computer Science Students.
+                        </p>
+                    </div>
+                </div>
+                <!-- card14 ended -->
+
+                 <!-- card15 started -->
+                 <div class="item work">
+                    <img src="assets/imgs/work15.jpg" alt="work15">
+                    <div class="overlay">
+                        <p>
+                            2 Days Python & Django Workshop at TGPCET Autonomus Institute,Nagpur on 1 October 2022.
+                        </p>
+                    </div>
+                </div>
+                <!-- card15 ended -->
+
+                 <!-- card16 started -->
+                 <div class="item work">
+                    <img src="assets/imgs/work16.jpg" alt="work16">
+                    <div class="overlay">
+                        <p>
+                            Workshop on Python at Amrutvahini College of Engineering & Technology, Sangamner, Dist:- Ahmednagar.
+                        </p>
+                    </div>
+                </div>
+                <!-- card16 ended -->
+
+                 <!-- card17 started -->
+                 <div class="item work">
+                    <img src="assets/imgs/work17.jpg" alt="work17">
+                    <div class="overlay">
+                        <p>
+                            5 Days Workshop On Python, Django & ML in G.H. Raisoni Autonomus Engineering College, Nagpur.
+                        </p>
+                    </div>
+                </div>
+                <!-- card17 ended -->
+
+                 <!-- card18 started -->
+                 <div class="item work">
+                    <img src="assets/imgs/work18.jpg" alt="work18">
+                    <div class="overlay">
+                        <p>
+                            Completed 50 hrs training program On C language in VMIT Engg. College, Nagpur( Maharashtra).
+                        </p>
+                    </div>
+                </div>
+                <!-- card18 ended -->
+
+                 <!-- card19 started -->
+                 <div class="item work">
+                    <img src="assets/imgs/work19.jpg" alt="work19">
+                    <div class="overlay">
+                        <p>
+                            Training on HTML & CSS Batch-1 In Wainganga College Of Engineering & Management, Nagpur(Maharashtra).
+                        </p>
+                    </div>
+                </div>
+                <!-- card19 ended -->
+
+                 <!-- card20 started -->
+                 <div class="item work">
+                    <img src="assets/imgs/work20.jpg" alt="work20">
+                    <div class="overlay">
+                        <p>
+                            30hrs training from 5th June 2024 to 15th June 2024 on Python & Django In Sadabai Raisoni College Sadar, Nagpur(Maharashtra) .
+                        </p>
+                    </div>
+                </div>
+                <!-- card20 ended -->
+
+                 <!-- card21 started -->
+                 <div class="item work">
+                    <img src="assets/imgs/work21.jpg" alt="work21">
+                    <div class="overlay">
+                        <p>
+                            5 days workshop session On C, HTML & CSS.
+                        </p>
+                    </div>
+                </div>
+                <!-- card21 ended -->
+
+                 <!-- card22 started -->
+                 <div class="item work">
+                    <img src="assets/imgs/work22.jpg" alt="work22">
+                    <div class="overlay">
+                        <p>
+                            Workshop at Gurunanak Institute of Engineering & Technology, Nagpur(Maharashtra).
+                        </p>
+                    </div>
+                </div>
+                <!-- card22 ended -->
+
+                
+
+                
+
+
+                <!-- session -->
+                <!-- card1 started -->
+                <div class="item session">
+                    <img src="assets/imgs/session1.jpg" alt="session1">
+                    <div class="overlay">
+                        <p>
+                            26th November 2024 successfully conducted hands on session on python & django for faculties & students @ GH Raisoni University Saikheda Campus (M.P.)
+                        </p>
+                    </div>
+                </div>
+                <!-- card1 ended -->
+
+                <!-- card2 started -->
+                <div class="item session">
+                    <img src="assets/imgs/session2.jpg" alt="session2">
+                    <div class="overlay">
+                        <p>
+                            5th October 2024 successfully completed 5 days hands on session on PHP Web Development from 30th September 2024 to 5th October 2024 @ Raisoni Group Of Institutions Saikheda Campus.
+                        </p>
+                    </div>
+                </div>
+                <!-- card2 ended -->
+
+                <!-- card3 started -->
+                <div class="item session">
+                    <img src="assets/imgs/session3.jpg" alt="session3">
+                    <div class="overlay">
+                        <p>
+                            12th September 2024 have successfully completed session on React js In Sadabai Raisoni College, Nagpur ( Maharashtra).
+                        </p>
+                    </div>
+                </div>
+                <!-- card3 ended -->
+
+                <!-- card4 started -->
+                <div class="item session">
+                    <img src="assets/imgs/session4.jpg" alt="session4">
+                    <div class="overlay">
+                        <p>
+                            Successfully delivered session in NIT Polytechnic, Nagpur ( Maharashtra) on 21 August 2024.
+                        </p>
+                    </div>
+                </div>
+                <!-- card4 ended -->
+
+                <!-- card5 started -->
+                <div class="item session">
+                    <img src="assets/imgs/session5.jpg" alt="session5">
+                    <div class="overlay">
+                        <p>
+                            Conducted Python & Django Session In Sadabi Raisoni Saikheda Campus on 20 August 2024.
+                        </p>
+                    </div>
+                </div>
+                <!-- card5 ended -->
+
+                <!-- card6 started -->
+                <div class="item session">
+                    <img src="assets/imgs/session6.jpg" alt="session6">
+                    <div class="overlay">
+                        <p>
+                            Conducted Python & Django Session In Wainganga College of Engineering & Management,Nagpur on dated 28th October,2023.
+                        </p>
+                    </div>
+                </div>
+                <!-- card6 ended -->
+
+                <!-- card7 started -->
+                <div class="item session">
+                    <img src="assets/imgs/session7.jpg" alt="session7">
+                    <div class="overlay">
+                        <p>
+                            Successfully Completed 2 Days Hands On Session On C & C++ In Tuksiramji Gaikwad Patil College Of Engineering & Technology, Nagpur on 23 August 2023.
+                        </p>
+                    </div>
+                </div>
+                <!-- card7 ended -->
+
+                <!-- card8 started -->
+                <div class="item session">
+                    <img src="assets/imgs/session8.jpg" alt="session8">
+                    <div class="overlay">
+                        <p>
+                            Successfully Completed Python Session For Faculties Of Engineering @ Amrutvahini College Of Engineering & Technology, Sangamner, Dist:- Ahmednagar(Maharashtra) on 26 April 2023.
+                        </p>
+                    </div>
+                </div>
+                <!-- card8 ended -->
+
+                <!-- card9 started -->
+                <div class="item session">
+                    <img src="assets/imgs/session9.jpg" alt="session9">
+                    <div class="overlay">
+                        <p>
+                            My One More Exciting Session On Goal Setting in Vivekanand Polytechnic Sitasongi ,Tumsar( Maharashtra) on 10 november 2022
+                        </p>
+                    </div>
+                </div>
+                <!-- card9 ended -->
+
+
+
+
+                <!-- drive -->
+                <!-- card1 started -->
+                <div class="item drive">
+                    <img src="assets/imgs/Drive1.jpg" alt="drive1">
+                    <div class="overlay">
+                        <p>
+                            Conducted Internship Drive On 13th December 2024 For Final Year MCA Students Of GH Raisoni Education (Autonomous) Institute Nagpur(Maharashtra).
+                        </p>
+                    </div>
+                </div>
+                <!-- card1 ended -->
+
+                <!-- card2 started -->
+                <div class="item drive">
+                    <img src="assets/imgs/Drive2.jpg" alt="drive2">
+                    <div class="overlay">
+                        <p>
+                            Conducted Campus Drive For Final year Computer Engineering & MCA students @ Ballarpur Institute of Technology On 11th December 2024.
+                        </p>
+                    </div>
+                </div>
+                <!-- card2 ended -->
+
+                <!-- card3 started -->
+                <div class="item drive">
+                    <img src="assets/imgs/Drive3.jpg" alt="drive3">
+                    <div class="overlay">
+                        <p>
+                            7th December 2024 , Anishree Technologies successfully Conducted Internship Drive @ Prof. Ram meghe Institute of Engineering & Technology Badnera Amravati (Maharashtra).
+                        </p>
+                    </div>
+                </div>
+                <!-- card3 ended -->
+
+                <!-- card4 started -->
+                <div class="item drive">
+                    <img src="assets/imgs/Drive4.jpg" alt="drive4">
+                    <div class="overlay">
+                        <p>
+                            Conducted free internship drive for MCA Students IICC Campus , Nagpur University On Dated 25th November 2024.
+                        </p>
+                    </div>
+                </div>
+                <!-- card4 ended -->
+
+                <!-- card5 started -->
+                <div class="item drive">
+                    <img src="assets/imgs/Drive5.jpg" alt="drive5">
+                    <div class="overlay">
+                        <p>
+                            SSIT Pvt. Ltd Successfully 15th October 2024 Anishree Technologies LLP Has Successfully Completed Free Internship Drive For Final Year BSC(IT) & BCA Students of Sadabai Raisoni Women's College Sadar, Nagpur.
+                        </p>
+                    </div>
+                </div>
+                <!-- card5 ended -->
+
+                <!-- card6 started -->
+                <div class="item drive">
+                    <img src="assets/imgs/Drive6.jpg" alt="drive6">
+                    <div class="overlay">
+                        <p>
+                            SSIT Pvt.Ltd.Nagpur 24th August, 2024 I have started industrial training on full stack development @ NIT Polytechnic, Nagpur ( Maharashtra).
+                        </p>
+                    </div>
+                </div>
+                <!-- card6 ended -->
+
+                
+
+                <!-- celebrant -->
+
+                <!-- card1 started -->
+                <div class="item celebrant">
+                    <img src="assets/imgs/celebrant1.jpg" alt="celebrant1">
+                    <div class="overlay">
+                        <p style="font-size: 14px !important;">
+                            As a jury member, it's my privilege to see the immense talent at Sadabai Raisoni Women's College,Nagpur
+                            Hackathons are not just about coding; they’re about pushing boundaries, collaborating with like-minded individuals, and thinking outside the box to solve real-world problems.
+                        </p>
+                    </div>
+                </div>
+                <!-- card1 ended -->
+
+                <!-- card2 started -->
+                <div class="item celebrant">
+                    <img src="assets/imgs/celebrant2.jpg" alt="celebrant2">
+                    <div class="overlay">
+                        <p style="font-size: 14px !important;">
+                            On 15th January 2025 Anishree Technologies and G.H. Raisoni University,Saikheda Setup industrial collaborative lab in a college to provides students with hands-on experience, bridging the gap between theoretical knowledge and real-world applications. It fosters innovation, enhances practical skills, and prepares students for the dynamic demands of the industry.
+                        </p>
+                    </div>
+                </div>
+                <!-- card2 ended -->
+
+                <!-- card3 started -->
+                <div class="item celebrant">
+                    <img src="assets/imgs/celebrant3.jpg" alt="celebrant3">
+                    <div class="overlay">
+                        <p>
+                            It’s a true pleasure to be witnessing the incredible innovation and creativity that all of you have poured into your projects. 
+                        </p>
+                    </div>
+                </div>
+                <!-- card3 ended -->
+
+                <!-- card4 started -->
+                <div class="item celebrant">
+                    <img src="assets/imgs/celebrant4.jpg" alt="celebrant4">
+                    <div class="overlay">
+                        <p style="font-size: 14px !important;">
+                             
+                        </p>
+                    </div>
+                </div>
+                <!-- card4 ended -->
+
+                
+
+
+
+
+                <!-- industry -->
+                <!-- card1 started -->
+                <div class="item industry">
+                    <img src="assets/imgs/industry1.jpg" alt="industry1">
+                    <div class="overlay">
+                        <p>
+                            Industrial Visit Of PR Potel College (Autonomous) Institute Amravati In Anishree Technologies & SSIT Pvt.Ltd., Nagpur(Maharashtra).
+                        </p>
+                    </div>
+                </div>
+                <!-- card1 ended -->
+
+                <!-- card2 started -->
+                <div class="item industry">
+                    <img src="assets/imgs/industry2.jpg" alt="industry2">
+                    <div class="overlay">
+                        <p>
+                            Industrial visit of G.H. Raisoni College of Engineering & Technology In SSIT Pvt.Ltd. & Anishree Technologies LLP , Nagpur on 12th February , 2024.
+                        </p>
+                    </div>
+                </div>
+                <!-- card2 ended -->
+
+                <!-- card3 started -->
+                <div class="item industry">
+                    <img src="assets/imgs/industry3.jpg" alt="industry3">
+                    <div class="overlay">
+                        <p>
+                            Industrial Visit of Polytechnic Final year Of Tulsiramji Gaikwad Patil College of Engineering & Technology (Autonomous) institute Nagpur on 20th January 2024 in SSIT Pvt.Ltd. Nagpur.
+                        </p>
+                    </div>
+                </div>
+                <!-- card3 ended -->
+
+                <!-- card4 started -->
+                <div class="item industry">
+                    <img src="assets/imgs/industry4.jpg" alt="industry4">
+                    <div class="overlay">
+                        <p>
+                            Industrial Visit of Agnihotri College of Engineering, Wardha on 19th November 2024 in SSIT Pvt.Ltd. Nagpur.
+                        </p>
+                    </div>
+                </div>
+                <!-- card4 ended -->
+
+                
+
+
+
+
+
+                <!-- MOU -->
+                <!-- card1 started -->
+                <div class="item MOU">
+                    <img src="assets/imgs/MOU1.jpg" alt="MOU1">
+                    <div class="overlay">
+                        <p>
+                            06th December 2024 Anishree Technologies & Suryodaya College of Engineering, Nagpur Signed official memorandum of understanding ( MoU).
+                        </p>
+                    </div>
+                </div>
+                <!-- card1 ended -->
+
+                <!-- card2 started -->
+                <div class="item MOU">
+                    <img src="assets/imgs/MOU2.jpg" alt="MOU2">
+                    <div class="overlay">
+                        <p>
+                            Signed Official M.o.U. with Department of Electronics & Computer Science(M.sc) University Campus, Nagpur & also signed Official M.o.u. with Inter Institutional Computer Center(M.C.A.) University Campus , Nagpur(Maharashtra) on 13 th July 2024.
+                        </p>
+                    </div>
+                </div>
+                <!-- card2 ended -->
+
+                <!-- card3 started -->
+                <div class="item MOU">
+                    <img src="assets/imgs/MOU3.jpg" alt="MOU3">
+                    <div class="overlay">
+                        <p>
+                            Signed Official MoU with Saikheda University Campus as on today 11th July , 2024.
+                        </p>
+                    </div>
+                </div>
+                <!-- card3 ended -->
+
+                <!-- card4 started -->
+                <div class="item MOU">
+                    <img src="assets/imgs/MOU4.jpg" alt="MOU4">
+                    <div class="overlay">
+                        <p>
+                            Signed official MoU with Sadabai Raisoni College,Sadar, Nagpur(Maharashtra) on 7th may 2024.
+                        </p>
+                    </div>
+                </div>
+                <!-- card4 ended -->
+
+                <!-- card5 started -->
+                <div class="item MOU">
+                    <img src="assets/imgs/MOU5.jpg" alt="MOU5">
+                    <div class="overlay">
+                        <p>
+                            Signed Official MoU with Wainganga College of Engineering , Nagpur. Thanks Rahul sir HOD CSE & his team on 13th September 2023.
+                        </p>
+                    </div>
+                </div>
+                <!-- card5 ended -->
+
+                <!-- card6 started -->
+                <div class="item MOU">
+                    <img src="assets/imgs/MOU6.jpg" alt="MOU6">
+                    <div class="overlay">
+                        <p>
+                            Signed official MoU with G.H. Raisoni Institute of Engineering & Technology, Nagpur on 12 August 2023.
+                        </p>
+                    </div>
+                </div>
+                <!-- card6 ended -->
+
+                <!-- card7 started -->
+                <div class="item MOU">
+                    <img src="assets/imgs/MOU7.jpg" alt="MOU7">
+                    <div class="overlay">
+                        <p>
+                            Signed Official MOU with Amrutvahini College of Engineering & Technology,Sangamner,Dist:-Agmednagar.
+                        </p>
+                    </div>
+                </div>
+                <!-- card7 ended -->
+
+                <!-- card8 started -->
+                <div class="item MOU">
+                    <img src="assets/imgs/MOU8.jpg" alt="MOU8">
+                    <div class="overlay">
+                        <p>
+                            Signed Official MoU with Shivaji Science College , Nagpur(Maharashtra).
+                        </p>
+                    </div>
+                </div>
+                <!-- card8 ended -->
+
+                <!-- card9 started -->
+                <div class="item MOU">
+                    <img src="assets/imgs/MOU9.jpg" alt="MOU9">
+                    <div class="overlay">
+                        <p>
+                            Signed Official Memorandum of Understanding(MoU) On 26th December 2024 With Computer Science & Engineering & Information Technology Department Of KDK College of Engineering, Nagpur.
+                        </p>
+                    </div>
+                </div>
+                <!-- card9 ended -->
+
+                
+
+
+
+
+
+                <!-- CRT -->
+                <!-- card1 started -->
+                <div class="item CRT">
+                    <img src="assets/imgs/crt1.jpg" alt="CRT1">
+                    <div class="overlay">
+                        <p>
+                            7 days Campus Recruitment Training Programme at Anuradha Engineering College, Chikhli (Maharashtra) from 9th to 11th September, 2014 & 28th to 1st October, 2014.
+                        </p>
+                    </div>
+                </div>
+                <!-- card1 ended -->
+
+
+
+
+                <!-- card2 started -->
+                <div class="item CRT">
+                    <img src="assets/imgs/crt2.jpg" alt="CRT2">
+                    <div class="overlay">
+                        <p>
+                            6 days Campus Recruitment Training Programme at Rajarshi Shahu College Of Engineering, Buldana (Maharashtra) from 22nd to 27th September, 2014.
+                        </p>
+                    </div>
+                </div>
+                <!-- card2 ended -->
+
+                
+
+
+
+
+
+                <!-- card3 started -->
+                <div class="item CRT" >
+                    <img src="assets/imgs/crt3.jpg" alt="CRT2">
+                    <div class="overlay">
+                        <p>
+                            4 Days Training On Entrepreneurship Development Programme at J.T. Mahajan college Of Engineering,Faizpur, Jalgaon (MH)
+                        </p>
+                    </div>
+                </div>
+                <!-- card3 ended -->
+
+                
+
+                
+
+
+
+
+
+
+
+                <!-- card4 started -->
+                <div class="item CRT">
+                    <img src="assets/imgs/crt4.jpg" alt="CRT4">
+                    <div class="overlay">
+                        <p>
+                            6 Days CRT Programme at Rajarshi Shahu College of Engineering, Buldhana(Maharashtra) from 22nd August to 27th August, 2015.
+                        </p>
+                    </div>
+                </div>
+                <!-- card4 ended -->
+
+                
+
+
+                <!-- card5 started -->
+                <div class="item CRT" >
+                    <img src="assets/imgs/crt5.jpg" alt="CRT5">
+
+                    <div class="overlay">
+
+                        <p>
+                            6 Days CRT Programme at Rajarshi Shahu College of Engineering, Buldhana(Maharashtra) from 23rd August to 28th August, 2013.
+                        </p>
+                    </div>
+                </div>
+                <!-- card5 ended -->
+
+
+                
+
+                <!-- card5 started -->
+                <div class="item CRT" >
+                    <img src="assets/imgs/crt6.jpg" alt="CRT6">
+                    <div class="overlay">
+                        <p>
+                            SSIT Pvt.Ltd.Nagpur conducted CRT training Program on C,C++,Data Structure and Hardware & Networking at JD College Of Engineering & Management From 14th January 2017 to 8th April 2017.
+                        </p>
+                    </div>
+                </div>
+                <!-- card5 ended -->
+
+                
+
+
+
+
+
+
+
+            
+                <!-- fdp -->
+                <!-- card1 started -->
+                <div class="item FDP">
+                    <img src="assets/imgs/fdp1.jpg" alt="FDP1">
+                    <div class="overlay">
+                        <p>
+                            5 Days faculty Development Programme on Android Operating System at Millennium Institute of Management, Aurangabad (Maharashtra) from 19th August to 23rd August, 2013.
+                        </p>
+                    </div>
+                </div>
+                <!-- card1 ended -->
+
+                
+
+
+
+                <!-- card2 started -->
+                <div class="item FDP" >
+                    <img src="assets/imgs/fdp2.jpg" alt="FDP2">
+                    <div class="overlay">
+                        <p>
+                            10 Days Faculty Development Program on Core Java & Android at Government Women Engineering College, Ajmer (Rajasthan) from 27th October to 5th November, 2015.
+                        </p>
+                    </div>
+                </div>
+                <!-- card2 ended -->
+
+                
+
+
+                <!-- card3 started -->
+                <div class="item FDP">
+                    <img src="assets/imgs/fdp3.jpg" alt="FDP3">
+                    <div class="overlay">
+                        <p>
+                            3 days Faculty Development Program At Sipna College of Engineering and Technology, Amravati On Deep Learning & Generative AI From 30th December 2024 to 1st January 2025.
+                        </p>
+                    </div>
+                </div>
+                <!-- card3 ended -->
+
+
+                
+
+                <!-- card4 started -->
+                <div class="item FDP">
+                    <img src="assets/imgs/fdp4.jpg" alt="FDP4">
+                    <div class="overlay">
+                        <p>
+                            Faculty Development Program At Amrutvahini College Of Engineering & Technology, Sangamner, Dist:- Ahmednagar(Maharashtra) On Python.
+                        </p>
+                    </div>
+                </div>
+                <!-- card4 ended -->
+
+                
+
+                <!-- card5 started -->
+                <div class="item FDP">
+                    <img src="assets/imgs/fdp5.jpg" alt="FDP5">
+                    <div class="overlay">
+                        <p>
+                            3 days Faculty Development Program On Deep Learning & Generative AI On 24th December , 26th December & 27th December 2024 at KDK COLLEGE OF ENGINEERING..NGP.
+                        </p>
+                    </div>
+                </div>
+                <!-- card5 ended -->
+
+                
+
+
+
+
+
+
+                <!-- card6 started -->
+                <div class="item FDP">
+                    <img src="assets/imgs/fdp6.jpg" alt="FDP6">
+                    <div class="overlay">
+                        <p>
+                            5 Days faculty Development Programme on Android Operating System at Millennium Institute of Management, Aurangabad (Maharashtra) from 19th August to 23rd August, 2013.
+                        </p>
+                    </div>
+                </div>
+                <!-- card6 ended -->
+
+                
+
+
+                <!-- MANG -->
+                <!-- card1 started -->
+                <div class="item management">
+                    <img src="assets/imgs/mang1.jpg" alt="mang1">
+                    <div class="overlay">
+                        <p>
+                            Guest Lecture on "Basic communication"(English)at Novatech Software Pvt. Ltd ,Nagpur(Maharashtra)on dated 3rd August,2013.
+                        </p>
+                    </div>
+                </div>
+                <!-- card1 ended -->
+
+
+
+
+
+
+
+                <!-- card2 started -->
+                <div class="item management "
+                data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+                    <img src="assets/imgs/mang2.jpg" alt="mang2">
+                    <div class="overlay">
+                        <p>
+                            SSIT Pvt.Ltd.Nagpur Conducted Traning on Decision Making & Time Management At Excel Control Linkage Private Limited, Nagpur on 31st May 2018.
+                        </p>
+                    </div>
+                </div>
+
+
+
+                
+                
+                
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade popup-image" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="card text-bg-dark">
+                    <img id="modalImage" src="" class="card-img" alt="..." style="object-fit: cover; height: 400px;">           
+                </div>   
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+            
+            </div>
+
+        </div>
+            <!-- gallery end -->
+        </main>
+    </section>
+
+
+
+    <!-- go to top button -->
+
+  <div onclick="scrollToTop()" class="scrollTop">
+    <button class="to-top button1" id="scroll" onclick="scrollToTop()">
+      <svg class="svgIcon" viewBox="0 0 384 512">
+        <path
+          d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
+        ></path>
+      </svg>
+    </button>
+  </div>
+
+  <!-- //go to top button -->
+  
+    
+    <script>
+        function setImage(src) {
+            document.getElementById('modalImage').src = src;
+        }
+    </script>
+
+
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js">
+    </script>
+
+    <!-- Isotope Filter Link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+
+
+
+    <!-- Js -->
+    <script src="filtergallary.js"></script>
+
+
+
+
+    <!-- Script to Control Scroll -->
+<script>
+    window.addEventListener("load", function () {
+        const marquee = document.getElementById("projectMarquee");
+
+        // Set marquee to stay initially
+        marquee.setAttribute("scrollamount", "0");
+
+        // Start scrolling after 3 seconds
+        setTimeout(() => {
+            marquee.setAttribute("scrollamount", "5"); // Set desired speed
+        }, 3000); // 3 seconds delay
+    });
+</script>
+
+
+
+
+
+
+<!-- core  -->
+<script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+<script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+<!-- bootstrap 3 affix -->
+<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+
+<!-- go to top -->
+<script>
+ 
+  function scrollToTop()
+       {
+         window.scrollTo(0, 0);
+       }
+</script>
+<!-- go to top -->
+
+
+
+    
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+
+
+ <!-- Bootstrap JS -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
